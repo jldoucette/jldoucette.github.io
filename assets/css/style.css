@@ -18,10 +18,17 @@ h1, h2, h3, h5 {
 	font-weight:bold;
 }
 
+
+
 h4 {
 	color:#ffffff;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	display:inline;
+}
+
+h6.footertext {
+	margin-top: 10px;
+	font-size:80%;
 }
 
 body {
@@ -53,7 +60,7 @@ input {
 	margin-top:10px;
 	margin-bottom:5px;
 	width:100%;
-	height:100px;
+	height:150px;
 	box-sizing:border-box;
 	color:#777777;
 	font-size:80%;
@@ -68,10 +75,10 @@ input {
 	text-align: center;
 }
 
-#aboutmeheader {
+.mainsectionheader {
 	color: #4aaaa5;
-	padding-top:10px;
-	padding-bottom:20px;
+	padding-top:20px;
+	padding-bottom:10px;
 }
 
 #nameboxcolor {
@@ -113,7 +120,7 @@ color: #777777;
 
 #aboutme {
 width:550px;
-height:400px;
+height:500px;
 background-color: #ffffff;
 margin-left:150px;
 margin-right:10px;
@@ -136,24 +143,33 @@ padding:20px;
 }
 
 #connect {
-width:260px;
+width:230px;
 /*height:20%;*/
 float: left;
 background-color:#ffffff;
 border-color:#dddddd;
 text-align: center;
-margin-left:10px;
+margin-left:20px;
 margin-top:20px;
-padding:10px;
+margin-right:20px;
+padding:5px;
 border-style:solid;
 border-width:2px;
 color: #777777;
 }
 
+#connectruleline {
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+
 #footer {
 	position:absolute;
 	bottom:0;
-	color: #ffffff;
+	color: #777777;
 	background-color: #666666;
 	height:60px;
 	width:100%;
@@ -162,12 +178,14 @@ color: #777777;
 	border-top-color:#4aaaa5;
 	border-top-style:solid;
 	border-top-width:4px;
-
+	padding-top:10px;
 
 }
+
+
 #contact {
 	width:550px;
-	height:400px;
+	height:500px;
 	background-color: #ffffff;
 	margin-left:150px;
 	margin-right:10px;
@@ -179,12 +197,12 @@ color: #777777;
 	border-style:solid;
 	border-width:2px;
 	overflow: scroll;
-
+	
 }
 
 #portfolio {
 	width:550px;
-	height:400px;
+	height:500px;
 	background-color: #ffffff;
 	margin-left:150px;
 	margin-right:10px;
